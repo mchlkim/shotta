@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/app-icon.png" alt="Shotta app icon" width="128" height="128">
+</p>
+
 # Shotta
 
 Shotta is a macOS menu bar screenshot tool for capturing, editing, and sharing screenshots without breaking your flow.
