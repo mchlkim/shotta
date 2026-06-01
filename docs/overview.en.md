@@ -31,6 +31,6 @@ Shotta supports English, Korean, Chinese, and Japanese in the app UI. This publi
 
 ## Installation
 
-Download Shotta from [GitHub Releases](../../releases), open the release package, and move `Shotta.app` to your Applications folder if the release package asks you to do so.
+Download [Shotta.app.zip](../downloads/Shotta.app.zip), unzip it, and move `Shotta.app` to your Applications folder.
 
 When you launch Shotta, look for the Shotta icon in the macOS menu bar.

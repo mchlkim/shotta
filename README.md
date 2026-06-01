@@ -10,7 +10,15 @@ Start a capture from the menu bar or a global shortcut, select a full screen, re
 
 ## Download
 
-Download the latest signed release from [GitHub Releases](../../releases).
+Download the latest app package: [Shotta.app.zip](downloads/Shotta.app.zip).
+
+The stable raw download URL is:
+
+```text
+https://github.com/mchlkim/shotta/raw/main/downloads/Shotta.app.zip
+```
+
+Release metadata for app-driven update checks is available at [downloads/latest.json](downloads/latest.json).
 
 After installing, launch `Shotta.app`. Shotta runs from the macOS menu bar, so it does not open a large main window on startup.
 
