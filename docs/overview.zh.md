@@ -21,6 +21,7 @@ Shotta 是一款 macOS 菜单栏截图工具，用于快速截图和轻量编辑
 - 高亮和文本
 - 裁剪
 - 用模糊或马赛克遮盖敏感内容
+- 实况文本：选择并拷贝截图中识别出的文字
 - 撤销和重做
 - 复制到剪贴板或保存为 PNG
 - 最近截图历史
@@ -31,6 +32,6 @@ Shotta 应用界面支持英语、韩语、中文和日语。本 public 仓库�
 
 ## 安装
 
-从 [GitHub Releases](../../releases) 下载 Shotta，打开发布包，并在提示时将 `Shotta.app` 移到 Applications 文件夹。
+下载 [Shotta.app.zip](../downloads/Shotta.app.zip)，解压后将 `Shotta.app` 移到 Applications 文件夹。系统要求、首次启动的 Gatekeeper 步骤和校验和验证方法请参阅 [README](../README.md)。
 
 启动 Shotta 后，请在 macOS 菜单栏中查找 Shotta 图标。

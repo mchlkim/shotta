@@ -21,6 +21,7 @@ UI 캡처, 문서 작성, 버그 리포트, 디자인 피드백, 지원 자료�
 - 하이라이트와 텍스트
 - 자르기
 - 민감한 영역을 가리는 흐림과 모자이크
+- 라이브 텍스트: 캡처 이미지 속 텍스트를 선택하고 복사
 - 실행 취소와 다시 실행
 - 클립보드 복사 또는 PNG 저장
 - 최근 캡처 히스토리
@@ -31,6 +32,6 @@ Shotta 앱 UI는 영어, 한국어, 중국어, 일본어를 지원합니다. 이
 
 ## 설치
 
-[GitHub Releases](../../releases)에서 Shotta를 다운로드한 뒤 릴리즈 패키지를 열고, 안내가 표시되면 `Shotta.app`을 Applications 폴더로 옮기세요.
+[Shotta.app.zip](../downloads/Shotta.app.zip)을 다운로드해 압축을 푼 뒤 `Shotta.app`을 Applications 폴더로 옮기세요. 시스템 요구사항, 첫 실행 시 Gatekeeper 안내, 체크섬 확인 방법은 [README](../README.md)를 참고하세요.
 
 Shotta를 실행하면 macOS 상단바에 Shotta 아이콘이 표시됩니다.

@@ -1,0 +1,39 @@
+Shotta End User License
+
+Copyright (c) 2026 mchlkim. All rights reserved.
+
+1. Grant
+
+You are granted a free, non-exclusive, non-transferable license to download,
+install, and use the Shotta application ("the Software") on Apple devices you
+own or control, for personal and commercial purposes.
+
+2. Restrictions
+
+You may not:
+
+- Sell, rent, lease, or otherwise redistribute the Software, in original or
+  modified form, without prior written permission. Linking to this repository
+  or its download URL is always allowed.
+- Modify, decompile, disassemble, or reverse engineer the Software, except to
+  the extent such restriction is prohibited by applicable law.
+- Remove or alter any copyright or attribution notices.
+
+3. Documentation
+
+The documentation in this repository (README and the files under docs/) may be
+quoted and shared with attribution and a link back to this repository.
+
+4. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5. Termination
+
+This license terminates automatically if you violate any of its terms. Upon
+termination, you must stop using the Software and delete all copies.

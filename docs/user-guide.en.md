@@ -9,6 +9,8 @@ Shotta is a macOS menu bar screenshot tool. You can capture a full screen, regio
 3. When macOS asks for Screen Recording permission during your first capture, allow it.
 4. If Element Capture asks for Accessibility permission, choose `Open System Settings` and allow Shotta.
 
+If macOS blocks the first launch with a warning that the app could not be verified, open `System Settings` > `Privacy & Security` and click `Open Anyway`. See the [README](../README.md) for details.
+
 Shotta is a menu bar app. It does not open a large main window immediately after launch. Start captures from the menu bar or global shortcuts.
 
 ## Basic Capture
@@ -49,7 +51,7 @@ Choose `Open Editor` from the menu bar menu to reopen the latest capture or the 
 
 ## Editor
 
-Use the left or top toolbar to edit the image. You can change the toolbar position in Settings.
+Use the toolbar to edit the image. You can place the toolbar on the left, top, or bottom in Settings.
 
 | Tool | Description |
 | --- | --- |
@@ -65,6 +67,12 @@ Use the left or top toolbar to edit the image. You can change the toolbar positi
 | Blur | Apply blur or mosaic to a selected area. |
 
 Depending on the selected tool or object, you can adjust color, stroke width, text size, effect type, and effect strength. Copy and save use the current visible edited result.
+
+## Live Text
+
+When the Select tool is active, Shotta recognizes text inside the current capture. Drag across text in the image to select it, then press `Command + C` to copy the selected text instead of the image. Press `Esc` or switch to another tool to clear the text selection.
+
+Text recognition runs entirely on-device. If nothing is selectable, the capture may not contain recognizable text.
 
 ## Editor Shortcuts
 
@@ -132,7 +140,7 @@ Open Settings from the Shotta menu bar icon or with `Command + ,`.
 | Launch at Login | Start Shotta automatically when you sign in to macOS. |
 | Language | Choose English, Korean, Chinese, or Japanese. |
 | After Capture | Open the editor or copy directly to the clipboard. |
-| Toolbar Position | Place the editor toolbar on the left or at the top. |
+| Toolbar Position | Place the editor toolbar on the left, top, or bottom. |
 
 Auto-save file names use the `shotta-YYYYMMDD-HHMM.png` format. If multiple files are created in the same minute, Shotta appends a number such as `shotta-YYYYMMDD-HHMM 2.png`.
 
@@ -163,3 +171,12 @@ Development builds or ad-hoc signed apps can look like different apps to macOS a
 ### Quit Shotta Completely
 
 Click the Shotta icon in the menu bar, then choose `Quit`. Closing only the editor window leaves Shotta running in the menu bar.
+
+## Uninstall
+
+1. Click the Shotta icon in the menu bar and choose `Quit`.
+2. Delete `Shotta.app` from your Applications folder.
+3. Optionally remove settings: run `defaults delete com.local.Shotta` in Terminal.
+4. Optionally remove Shotta from `System Settings` > `Privacy & Security` > `Screen Recording` and `Accessibility`.
+
+Saved and auto-saved screenshots are regular PNG files and remain in your chosen folder.

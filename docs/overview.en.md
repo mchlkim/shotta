@@ -21,6 +21,7 @@ The editor supports common screenshot annotation tasks:
 - Highlights and text
 - Crop
 - Blur and mosaic for sensitive content
+- Live Text: select and copy text recognized inside the capture
 - Undo and redo
 - Copy to clipboard or save as PNG
 - Recent capture history
@@ -31,6 +32,6 @@ Shotta supports English, Korean, Chinese, and Japanese in the app UI. This publi
 
 ## Installation
 
-Download [Shotta.app.zip](../downloads/Shotta.app.zip), unzip it, and move `Shotta.app` to your Applications folder.
+Download [Shotta.app.zip](../downloads/Shotta.app.zip), unzip it, and move `Shotta.app` to your Applications folder. Requirements, first-launch Gatekeeper steps, and checksum verification are described in the [README](../README.md).
 
 When you launch Shotta, look for the Shotta icon in the macOS menu bar.
