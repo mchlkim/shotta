@@ -2,7 +2,19 @@
   <img src="assets/app-icon.png" alt="Shotta app icon" width="128" height="128">
 </p>
 
-# Shotta
+<h1 align="center">Shotta</h1>
+
+<p align="center">
+  <strong>Capture. Mark it up. Send it.</strong><br>
+  A Mac screenshot tool that keeps your workflow moving.
+</p>
+
+<p align="center">
+  <a href="https://shotta-mac.mchlkim.chatgpt.site/en">Website</a> ·
+  <a href="downloads/Shotta.app.zip">Download</a> ·
+  <a href="docs/user-guide.en.md">User Guide</a> ·
+  <a href="../../issues">Feedback</a>
+</p>
 
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
@@ -11,26 +23,39 @@
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
-Shotta is a macOS menu bar screenshot tool for capturing, editing, and sharing screenshots without breaking your flow.
+Capture what you need, blur what you don't, and send it right away. Shotta lives in your Mac menu bar, ready whenever you need a clean screenshot without switching tools or uploading anything.
 
-Start a capture from the menu bar or a global shortcut, select a full screen, region, window, or visible UI element, then copy or save the result from the built-in editor.
+## Capture exactly what you need
 
-<!--
-TODO: Add real captures to assets/ and uncomment.
-Suggested shots: capture overlay with element highlight, editor with annotations, history panel.
+Start from the menu bar or a keyboard shortcut. Use `Space` to switch capture modes, or press `Esc` whenever you want to cancel.
 
-<p align="center">
-  <img src="assets/screenshot-overlay.png" alt="Capture overlay" width="720">
-  <img src="assets/screenshot-editor.png" alt="Editor with annotations" width="720">
-</p>
--->
+| Capture mode | What it does |
+| --- | --- |
+| Full screen | Captures an entire display, including multi-monitor setups. |
+| Region | Lets you drag out exactly the area you need. |
+| Window | Captures the window under your pointer with one click. |
+| UI element | Captures a visible button, field, list, or other interface element. |
+
+## Mark up and share
+
+Once you've captured it, you're halfway done explaining. Add a note where it matters, hide sensitive information, copy text directly from the image, or reopen an earlier capture from your history.
+
+- Shapes, arrows, lines, pen, highlighter, and text
+- Crop, blur, and mosaic
+- Live Text with on-device text recognition
+- Copy to the clipboard or save as PNG
+- Recent capture history
+
+## Private by default
+
+Your screenshots stay on your Mac. Capturing, editing, and text recognition all happen locally: no uploads, no tracking, and no sign-in.
 
 ## Requirements
 
 - macOS 26 or later
 - Apple Silicon Mac (the current build is arm64-only)
 
-## Download
+## Download and install
 
 Download the latest app package: [Shotta.app.zip](downloads/Shotta.app.zip).
 
@@ -52,38 +77,73 @@ Compare the SHA-256 checksum of the downloaded archive with the value in [downlo
 shasum -a 256 Shotta.app.zip
 ```
 
-## First Launch
+## Frequently asked questions
 
-The current builds are not notarized by Apple, so macOS Gatekeeper blocks the first launch with a warning that the app could not be verified.
+<details>
+<summary><strong>macOS says Shotta cannot be opened. What should I do?</strong></summary>
 
-To open Shotta anyway:
+The current build is not notarized by Apple. Move `Shotta.app` to Applications, then Control-click it in Finder and choose **Open**. Choose **Open** again in the dialog. This is the usual one-time way to approve a downloaded app you trust.
+</details>
 
-1. Try to open `Shotta.app` once and dismiss the warning.
-2. Open `System Settings` > `Privacy & Security`, scroll down to the security section, and click `Open Anyway` next to the Shotta message.
-3. Confirm the prompt. This is only needed once per downloaded build.
+<details>
+<summary><strong>I cannot find the Open option in Finder.</strong></summary>
 
-## Highlights
+Try opening Shotta normally once. Then go to **System Settings → Privacy & Security**, scroll to **Security**, and choose **Open Anyway** next to the Shotta message. Confirm **Open** when macOS asks again.
+</details>
 
-- Full screen, region, window, and visible UI element capture
-- Multi-display capture overlay
-- Built-in editor with shapes, arrows, freehand drawing, highlights, text, crop, blur, and mosaic
-- Live Text: select and copy text inside a capture
-- Copy to clipboard or save as PNG
-- Recent capture history in the editor
-- Configurable global shortcuts
-- Optional auto-save and launch at login
-- UI languages: English, Korean, Chinese, and Japanese
+<details>
+<summary><strong>Why does macOS show this warning?</strong></summary>
 
-## Guides
+This build has not been notarized by Apple, so Gatekeeper asks for your approval before the first launch. The warning is about the distribution status; you do not need to disable macOS security globally.
+</details>
+
+<details>
+<summary><strong>Which permissions does Shotta need?</strong></summary>
+
+Screen capture requires **Screen Recording** permission. UI element capture also uses **Accessibility** permission to detect the visible element under the pointer. Manage both in **System Settings → Privacy & Security**.
+</details>
+
+<details>
+<summary><strong>What Mac do I need?</strong></summary>
+
+Shotta requires macOS 26 or later on an Apple Silicon Mac. After the first-launch approval, it runs directly from the menu bar.
+</details>
+
+## Keyboard shortcuts
+
+### Start a capture
+
+These are the default global shortcuts. You can change them in Shotta Settings.
+
+| Shortcut | Action |
+| --- | --- |
+| `Control + Option + Shift + 3` | Capture a full screen |
+| `Control + Option + Shift + 4` | Capture a selected area |
+| `Control + Option + Shift + 5` | Capture a window |
+| `Control + Option + Shift + 6` | Capture a UI element |
+
+### Edit faster
+
+| Shortcut | Action |
+| --- | --- |
+| `R` · `O` · `A` · `L` | Rectangle · oval · arrow · line |
+| `D` · `H` · `T` | Pen · highlighter · text |
+| `C` · `B` | Crop · blur |
+| `Command + C` · `Command + S` | Copy · save |
+| `Command + Z` · `Command + Shift + Z` | Undo · redo |
+| `Command + +` · `Command + -` · `Space` | Zoom in · zoom out · reset view |
+| `Delete` · `Esc` · `Return` | Delete selection · cancel · apply crop |
+
+## Guides in your language
 
 English is the default language for this repository.
 
-| Language | Product Intro | User Guide |
-| --- | --- | --- |
-| English | [Overview](docs/overview.en.md) | [User Guide](docs/user-guide.en.md) |
-| Korean | [제품 소개](docs/overview.ko.md) | [사용자 가이드](docs/user-guide.ko.md) |
-| Chinese | [产品介绍](docs/overview.zh.md) | [用户指南](docs/user-guide.zh.md) |
-| Japanese | [製品紹介](docs/overview.ja.md) | [ユーザーガイド](docs/user-guide.ja.md) |
+| Language | Product overview | User guide | Website |
+| --- | --- | --- | --- |
+| English | [Overview](docs/overview.en.md) | [User Guide](docs/user-guide.en.md) | [English](https://shotta-mac.mchlkim.chatgpt.site/en) |
+| 한국어 | [제품 소개](docs/overview.ko.md) | [사용자 가이드](docs/user-guide.ko.md) | [한국어](https://shotta-mac.mchlkim.chatgpt.site/ko) |
+| 简体中文 | [产品介绍](docs/overview.zh.md) | [用户指南](docs/user-guide.zh.md) | [简体中文](https://shotta-mac.mchlkim.chatgpt.site/zh) |
+| 日本語 | [製品紹介](docs/overview.ja.md) | [ユーザーガイド](docs/user-guide.ja.md) | [日本語](https://shotta-mac.mchlkim.chatgpt.site/ja) |
 
 ## Permissions
 
