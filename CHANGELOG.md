@@ -3,6 +3,27 @@
 All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json).
 
+## [1.1.1] — 2026-09-08
+
+### Fixed
+
+- Keep Live Text selection separate from annotation drawing, dragging, and resize handles. Cancel stale text-recognition callbacks when switching images.
+- Stop copy, save, and crop when effect rendering fails instead of exporting an unprocessed image.
+- Clear stale redo steps after a new edit and cancel active drags when switching documents.
+- Preserve cached images and zoom when reselecting the current history item, while clearing text selection before copying that image.
+- Load translations and cursor resources from the app bundle without requiring the development checkout.
+
+### Improved
+
+- Limit concurrent history compression and effect processing. Release queued images that are deleted or no longer needed and combine superseded effect requests.
+- Validate required resources and read release metadata from the packaged app when preparing downloads.
+
+### Validation and distribution
+
+- 418 automated tests passed for this release; Release build and local signature verification passed.
+- macOS 26+, Apple Silicon. This build uses a local development signature and is not notarized by Apple.
+- Native end-to-end capture and VisionKit interactions have not been manually verified for this release.
+
 ## [1.1.0] — 2026-09-08
 
 ### Added

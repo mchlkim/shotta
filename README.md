@@ -20,13 +20,22 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
 
-## New in v1.1.0
+## New in v1.1.1
+
+- Live Text stays out of the way while you draw, move, or resize annotations.
+- Copies and saves stop if an image effect cannot render, so an unprocessed image is not exported by mistake.
+- Undo, redo, and switching between history images keep the correct editing state.
+- Bundled resources load on Macs without the development checkout. Background image work is limited to keep pending tasks from holding extra images.
+
+See the [v1.1.1 changelog](CHANGELOG.md#111--2026-09-08) for details.
+
+## Added in v1.1.0
 
 - **Open images.** Use `Command + O`, Finder's **Open With**, or a file drop. Imported images join your capture history.
 - **Choose how to save.** Use `Shift + Command + S` to choose the name, folder, and image format. `Command + S` still saves a new PNG in your configured folder.
@@ -74,7 +83,7 @@ Save As supports **PNG, JPEG, TIFF, HEIC, and BMP**. PNG and TIFF keep transpare
 
 ## Download and install
 
-Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.1.0 (build 110)**.
+Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.1.1 (build 111)**.
 
 Download [Shotta.app.zip](downloads/Shotta.app.zip), unzip it, and move `Shotta.app` to Applications. When you open Shotta, look for its icon in the menu bar.
 

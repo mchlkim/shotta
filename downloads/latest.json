@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
-  "buildNumber": "110",
-  "fileName": "Shotta.app.zip",
-  "path": "downloads/Shotta.app.zip",
-  "sha256": "93891640e230eb206abd75a13bfaca5b188b2a49898f6fd63be0f328a892e611",
-  "sizeBytes": 762850
+  "buildNumber" : "111",
+  "fileName" : "Shotta.app.zip",
+  "path" : "downloads\/Shotta.app.zip",
+  "sha256" : "4c40d5f2636290c4a330605ec53718b952938ee84353982fc90c59afe7f23db3",
+  "sizeBytes" : 778705,
+  "version" : "1.1.1"
 }
