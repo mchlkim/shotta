@@ -2,6 +2,15 @@
 
 Shotta is a macOS menu bar screenshot tool. You can capture a full screen, region, window, or visible UI element, then edit the image or save it as a PNG file.
 
+## Image files and Save As
+
+Use **File > Open Images…** (Command+O), the menu bar's Open Images command, Finder's **Open With > Shotta**, or drag files into the editor. Supported input formats are PNG, JPEG, WebP, HEIC/HEIF, TIFF, BMP and GIF. Multiple files join history in order; animated or multi-page files open only the first frame/page. Images over 64 million pixels or 256 MiB of decoded data are rejected. File opening does not require Screen Recording permission or trigger capture auto-save.
+
+Use **File > Save As…** (Shift+Command+S), or right-click the editor's Save button, to choose a folder, filename and PNG/JPEG/TIFF/HEIC/BMP format. PNG and TIFF preserve transparency; JPEG, HEIC and BMP use a white background. WebP is supported for opening only. The system asks before replacing an existing file.
+
+Command+S and the Save button's normal click still create a new PNG in the configured folder. Imports do not modify the source file. Save As replaces a source file only if you explicitly choose that file and confirm replacement.
+
+
 ## Getting Started
 
 1. Launch `Shotta.app`.

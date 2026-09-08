@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
@@ -43,8 +43,13 @@ Once you've captured it, you're halfway done explaining. Add a note where it mat
 - Shapes, arrows, lines, pen, highlighter, and text
 - Crop, blur, and mosaic
 - Live Text with on-device text recognition
-- Copy to the clipboard or save as PNG
-- Recent capture history
+- Copy to the clipboard, save quickly as PNG, or use **Save As…** (⇧⌘S) to choose a folder, filename and PNG/JPEG/TIFF/HEIC/BMP format
+- Open PNG, JPEG, WebP, HEIC/HEIF, TIFF, BMP and GIF images with ⌘O, Finder or file drop
+- Recent capture and imported-image history with compressed thumbnails and inactive originals
+
+## New in v1.1.0
+
+Image file opening and **Save As…** join the existing capture editor. Capture dimming uses compositing layers, overlay windows are reused, and image caches retain fewer inactive bitmaps. See the [changelog](CHANGELOG.md#110--2026-09-08) for details.
 
 ## Private by default
 
