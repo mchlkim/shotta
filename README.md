@@ -132,7 +132,7 @@ This command only opens Settings; you approve Shotta in the macOS dialog. If mac
 For a copy downloaded from this site or the official GitHub repository, [verify its checksum](#verify-a-download) and move `Shotta.app` to `/Applications` first. If the unnotarized-app warning blocks it, run:
 
 ```sh
-xattr -dr com.apple.quarantine "/Applications/Shotta.app"
+/usr/bin/xattr -dr com.apple.quarantine "/Applications/Shotta.app"
 ```
 
 This removes the download quarantine attribute from Shotta only. It preserves the app's signature and does not add Apple notarization. Open Shotta from Applications afterwards; Screen Recording permission is still required for capture.
