@@ -1,6 +1,6 @@
 # Shotta User Guide
 
-Shotta is a macOS menu bar screenshot tool. You can capture a full screen, region, window, or visible UI element, then edit the image or save it as a PNG file.
+Shotta is a macOS menu bar screenshot tool. You can capture a full screen, region, or window, then edit the image or save it as a PNG file.
 
 ## Image files and Save As
 
@@ -10,13 +10,11 @@ Use **File > Save As…** (Shift+Command+S), or right-click the editor's Save bu
 
 Command+S and the Save button's normal click still create a new PNG in the configured folder. Imports do not modify the source file. Save As replaces a source file only if you explicitly choose that file and confirm replacement.
 
-
 ## Getting Started
 
 1. Launch `Shotta.app`.
 2. Confirm that the Shotta icon appears on the right side of the macOS menu bar.
 3. When macOS asks for Screen Recording permission during your first capture, allow it.
-4. If Element Capture asks for Accessibility permission, choose `Open System Settings` and allow Shotta.
 
 If macOS blocks the first launch with a warning that the app could not be verified, open `System Settings` > `Privacy & Security` and click `Open Anyway`. See the [README](../README.md) for details.
 
@@ -31,26 +29,23 @@ Click the Shotta icon in the menu bar to use these commands.
 | Region Capture | `Control + Option + Shift + 4` | Capture a dragged rectangle. |
 | Full Screen Capture | `Control + Option + Shift + 3` | Capture the display you click. |
 | Window Capture | `Control + Option + Shift + 5` | Capture the highlighted window under the pointer. |
-| Element Capture | `Control + Option + Shift + 6` | Capture the highlighted UI element under the pointer. |
 
 When the capture overlay is open:
 
 | Key or Action | Description |
 | --- | --- |
-| `Space` | Switch modes in this order: full screen, region, window, element. |
+| `Space` | Switch modes in this order: full screen, region, window. |
 | `Esc` | Cancel capture and close the overlay. |
 | Drag | Select an area in region capture mode. |
-| Click | Capture the current highlighted target in full screen, window, or element mode. |
+| Click | Capture the current highlighted target in full screen or window mode. |
 
 In multi-display setups, Shotta shows an overlay on every display. Full screen capture uses the display you click, and region capture can cross display boundaries.
 
-## Element Capture Permission
+The magnifier helps you check the edges while selecting a region. Adjust its size and zoom in Settings.
 
-Element Capture uses macOS Accessibility permission to detect UI elements such as buttons, input fields, and list rows under the pointer.
+## Shortcut recording permission
 
-If permission is missing, Shotta shows a permission prompt. Choose `Open System Settings`, then allow Shotta under `Privacy & Security` > `Accessibility`. If elements still do not highlight after permission is granted, quit and relaunch Shotta.
-
-Element Capture captures the visible area of the detected accessibility element. It does not capture an entire webpage or hidden DOM content outside the visible screen.
+When recording a new shortcut in Settings, Shotta may request Accessibility permission to receive the key combination before other apps. Allow it in `System Settings` > `Privacy & Security` > `Accessibility` if prompted. Input interception is active only while recording a shortcut. Opening image files does not require Screen Recording permission.
 
 ## After Capture
 
@@ -88,6 +83,8 @@ Text recognition runs entirely on-device. If nothing is selectable, the capture 
 | Shortcut | Action |
 | --- | --- |
 | `Command + C` | Copy edited result |
+| `Command + O` | Open image files |
+| `Shift + Command + S` | Save As: choose name, folder, and format |
 | `Command + S` | Save edited result |
 | `Command + Z` | Undo |
 | `Command + Shift + Z` or `Command + Y` | Redo |
@@ -123,7 +120,7 @@ Adjustment shortcuts:
 
 ## History
 
-The editor history panel keeps up to 100 recent captures. Click a thumbnail to switch to another capture.
+The editor history panel keeps up to 100 captures and imported images together. Click a thumbnail to return to an image.
 
 When the history panel is open:
 
@@ -155,7 +152,7 @@ Auto-save file names use the `shotta-YYYYMMDD-HHMM.png` format. If multiple file
 
 ### Shortcuts
 
-Use the Shortcuts tab to change global shortcuts for full screen, region, window, and element capture. Click a shortcut field, enter a new key combination, and it is saved. Use the reset button to restore a default shortcut.
+Use the Shortcuts tab to change global shortcuts for full screen, region, and window capture. Click a shortcut field, enter a new key combination, and it is saved. Use the reset button to restore a default shortcut.
 
 If another app or macOS already uses the same global shortcut, Shotta may not be able to register it. Choose a different shortcut if one does not respond.
 
@@ -164,10 +161,6 @@ If another app or macOS already uses the same global shortcut, Shotta may not be
 ### Captures Are Black or Empty
 
 Check Screen Recording permission in `System Settings` > `Privacy & Security` > `Screen Recording`, allow Shotta, then relaunch the app.
-
-### Element Capture Does Not Select Anything
-
-Check Accessibility permission. Some apps limit accessibility information, and secure input areas such as password fields may not be available for element capture.
 
 ### Shortcuts Do Not Respond
 
@@ -188,4 +181,4 @@ Click the Shotta icon in the menu bar, then choose `Quit`. Closing only the edit
 3. Optionally remove settings: run `defaults delete com.local.Shotta` in Terminal.
 4. Optionally remove Shotta from `System Settings` > `Privacy & Security` > `Screen Recording` and `Accessibility`.
 
-Saved and auto-saved screenshots are regular PNG files and remain in your chosen folder.
+Saved images remain in your chosen folder and format. Auto-saved captures are PNG files.

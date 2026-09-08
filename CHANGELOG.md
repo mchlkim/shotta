@@ -11,6 +11,11 @@ metadata is also published in [downloads/latest.json](downloads/latest.json).
 - Save As (Shift+Command+S) lets you choose the folder, filename and PNG/JPEG/TIFF/HEIC/BMP format. PNG/TIFF preserve transparency; JPEG/HEIC/BMP use a white background. Existing Command+S remains quick PNG save.
 - Imported files join capture history without triggering capture auto-save or modifying their source files.
 
+### Removed
+
+- UI element capture, its menu item, and the default Control+Option+Shift+6 shortcut. Capture now offers full screen, region, and window modes; Space cycles through those three modes.
+- Accessibility-based element detection and its permission prompts. Accessibility permission may still be requested when recording a new shortcut in Settings; keyboard interception runs only during shortcut recording.
+
 ### Improved
 
 - Composite capture dimming with CALayer instead of CPU full-screen fills.
