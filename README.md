@@ -127,6 +127,21 @@ This command only opens Settings; you approve Shotta in the macOS dialog. If mac
 </details>
 
 <details>
+<summary><strong>Can I allow the first launch from Terminal?</strong></summary>
+
+For a copy downloaded from this site or the official GitHub repository, [verify its checksum](#verify-a-download) and move `Shotta.app` to `/Applications` first. If the unnotarized-app warning blocks it, run:
+
+```sh
+xattr -dr com.apple.quarantine "/Applications/Shotta.app"
+```
+
+This removes the download quarantine attribute from Shotta only. It preserves the app's signature and does not add Apple notarization. Open Shotta from Applications afterwards; Screen Recording permission is still required for capture.
+
+If Terminal reports a permission error, use **Open Anyway** in **Privacy & Security**. A managed Mac may prevent launch under your organization's policy.
+
+</details>
+
+<details>
 <summary><strong>Which permissions does Shotta need?</strong></summary>
 
 Capturing your screen requires **Screen Recording** permission in **System Settings → Privacy & Security**. Opening and editing image files does not require it.
