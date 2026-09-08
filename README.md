@@ -11,7 +11,8 @@
 
 <p align="center">
   <a href="https://shotta.mchlkim.com/en">Website</a> ·
-  <a href="downloads/Shotta.app.zip">Download</a> ·
+  <a href="downloads/Shotta.dmg">Download DMG</a> ·
+  <a href="downloads/Shotta.app.zip">ZIP</a> ·
   <a href="docs/user-guide.en.md">User guide</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="../../issues">Feedback</a>
@@ -85,21 +86,27 @@ Save As supports **PNG, JPEG, TIFF, HEIC, and BMP**. PNG and TIFF keep transpare
 
 Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.1.1 (build 111)**.
 
-Download [Shotta.app.zip](downloads/Shotta.app.zip), unzip it, and move `Shotta.app` to Applications. When you open Shotta, look for its icon in the menu bar.
+| Format | Download | Installation |
+| --- | --- | --- |
+| DMG (recommended) | [Shotta.dmg](downloads/Shotta.dmg) | Open the disk image and drag Shotta to Applications. |
+| ZIP | [Shotta.app.zip](downloads/Shotta.app.zip) | Unzip the archive and move Shotta.app to Applications. |
 
-The stable download URL is:
+Both downloads contain the same v1.1.1 app. Quit any running copy of Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar.
 
-```text
-https://github.com/mchlkim/shotta/raw/main/downloads/Shotta.app.zip
-```
+The app retains its development signature and is not notarized by Apple. Either format may show the first-launch warning described below.
 
-Version, build number, file size, and SHA-256 checksum are listed in [downloads/latest.json](downloads/latest.json). To verify your download:
+Stable download links: [DMG](https://github.com/mchlkim/shotta/raw/main/downloads/Shotta.dmg) · [ZIP](https://github.com/mchlkim/shotta/raw/main/downloads/Shotta.app.zip).
 
-```sh
-shasum -a 256 Shotta.app.zip
-```
+### Verify a download
 
-Compare the result with the manifest's `sha256` value.
+[downloads/latest.json](downloads/latest.json) lists the version and each file's size and SHA-256 checksum. Run the command for the format you downloaded:
+
+| Format | Command | Checksum in latest.json |
+| --- | --- | --- |
+| DMG | `shasum -a 256 Shotta.dmg` | `artifacts.dmg.sha256` |
+| ZIP | `shasum -a 256 Shotta.app.zip` | `artifacts.zip.sha256` |
+
+The original top-level ZIP fields remain available for existing download tools.
 
 ## Frequently asked questions
 

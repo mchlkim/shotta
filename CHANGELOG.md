@@ -20,6 +20,8 @@ metadata is also published in [downloads/latest.json](downloads/latest.json).
 
 ### Validation and distribution
 
+- DMG and ZIP downloads contain the same v1.1.1 app. The DMG includes an Applications shortcut; the existing ZIP link remains available. Both formats retain the app's development signature and require the same first-launch approval when prompted.
+
 - 418 automated tests passed for this release; Release build and local signature verification passed.
 - macOS 26+, Apple Silicon. This build uses a local development signature and is not notarized by Apple.
 - Native end-to-end capture and VisionKit interactions have not been manually verified for this release.

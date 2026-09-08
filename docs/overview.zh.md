@@ -33,6 +33,6 @@ Shotta 应用界面支持英语、韩语、中文和日语。本 public 仓库�
 
 ## 安装
 
-下载 [Shotta.app.zip](../downloads/Shotta.app.zip)，解压后将 `Shotta.app` 移到 Applications 文件夹。系统要求、首次启动的 Gatekeeper 步骤和校验和验证方法请参阅 [README](../README.md)。
+打开[Shotta.dmg](../downloads/Shotta.dmg)，将Shotta拖入“应用程序”文件夹。也可以下载[ZIP版本](../downloads/Shotta.app.zip)。替换前请先退出旧版，再从“应用程序”启动Shotta，最后推出DMG。系统要求、首次打开的确认步骤和校验和检查方法见[README](../README.md)。
 
 启动 Shotta 后，请在 macOS 菜单栏中查找 Shotta 图标。

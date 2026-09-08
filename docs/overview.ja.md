@@ -33,6 +33,6 @@ Shotta のアプリ UI は英語、韓国語、中国語、日本語に対応し
 
 ## インストール
 
-[Shotta.app.zip](../downloads/Shotta.app.zip) をダウンロードして解凍し、`Shotta.app` を Applications フォルダへ移動してください。システム要件、初回起動時の Gatekeeper 手順、チェックサムの確認方法は [README](../README.md) を参照してください。
+[Shotta.dmg](../downloads/Shotta.dmg)を開き、Shottaをアプリケーションフォルダにドラッグしてください。[ZIP版](../downloads/Shotta.app.zip)も用意しています。旧バージョンを終了してから置き換え、アプリケーションフォルダから起動します。インストール後はDMGを取り出してください。システム要件、初回起動の承認、チェックサムの確認は[README](../README.md)をご覧ください。
 
 Shotta を起動したら、macOS のメニューバーに Shotta アイコンが表示されていることを確認します。

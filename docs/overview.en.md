@@ -33,6 +33,6 @@ Shotta supports English, Korean, Chinese, and Japanese in the app UI. This publi
 
 ## Installation
 
-Download [Shotta.app.zip](../downloads/Shotta.app.zip), unzip it, and move `Shotta.app` to your Applications folder. Requirements, first-launch Gatekeeper steps, and checksum verification are described in the [README](../README.md).
+Download [Shotta.dmg](../downloads/Shotta.dmg), open it, and drag Shotta to Applications. A [ZIP download](../downloads/Shotta.app.zip) is also available. Quit the old copy before replacing it, then launch Shotta from Applications and eject the DMG. Requirements, first-launch approval, and checksum checks are in the [README](../README.md).
 
 When you launch Shotta, look for the Shotta icon in the macOS menu bar.
