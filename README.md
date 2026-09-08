@@ -97,7 +97,17 @@ Compare the result with the manifest's `sha256` value.
 <details>
 <summary><strong>macOS warns me when I open Shotta. What should I do?</strong></summary>
 
-The current build is not notarized by Apple. If you trust this copy of Shotta, try opening it once. Then go to **System Settings → Privacy & Security**, scroll to **Security**, and choose **Open Anyway** next to the Shotta message. Confirm **Open** when asked. See [Apple's first-launch guidance](https://support.apple.com/en-us/102445).
+The current build is not notarized by Apple. Confirm that your copy came from the official Shotta download and [verify its checksum](#download-and-install). If macOS cannot verify the developer, try opening Shotta once. Then run this in Terminal to open System Settings:
+
+```sh
+open -a "System Settings"
+```
+
+1. Choose **Privacy & Security** and scroll to **Security**.
+2. Choose **Open Anyway** beside the Shotta message, then confirm **Open**.
+
+This command only opens Settings; you approve Shotta in the macOS dialog. If macOS says the app is damaged or will harm your Mac, do not open it. Download a fresh copy from the official source. See [Apple's first-launch guidance](https://support.apple.com/en-us/102445).
+
 </details>
 
 <details>
