@@ -21,20 +21,20 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.2-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
 
-## New in v1.1.1
+## New in v1.1.2
 
-- Live Text stays out of the way while you draw, move, or resize annotations.
-- Copies and saves stop if an image effect cannot render, so an unprocessed image is not exported by mistake.
-- Undo, redo, and switching between history images keep the correct editing state.
-- Bundled resources load on Macs without the development checkout. Background image work is limited to keep pending tasks from holding extra images.
+- Fix a crash caused by repeated Live Text selection callbacks while moving images or annotations.
+- Keep programmatic OCR updates separate from user selection and preserve OCR selection when the same image is refreshed.
+- Clear OCR results when their image is removed from history.
+- Keep copy and undo/redo shortcuts inside the active text editor.
 
-See the [v1.1.1 changelog](CHANGELOG.md#111--2026-09-08) for details.
+See the [v1.1.2 changelog](CHANGELOG.md#112--2026-09-09) for details.
 
 ## Added in v1.1.0
 
@@ -84,14 +84,14 @@ Save As supports **PNG, JPEG, TIFF, HEIC, and BMP**. PNG and TIFF keep transpare
 
 ## Download and install
 
-Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.1.1 (build 111)**.
+Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.1.2 (build 112)**.
 
 | Format | Download | Installation |
 | --- | --- | --- |
 | DMG (recommended) | [Shotta.dmg](downloads/Shotta.dmg) | Open the disk image and drag Shotta to Applications. |
 | ZIP | [Shotta.app.zip](downloads/Shotta.app.zip) | Unzip the archive and move Shotta.app to Applications. |
 
-Both downloads contain the same v1.1.1 app. Quit any running copy of Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar.
+Both downloads contain the same v1.1.2 app. Quit any running copy of Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar.
 
 The app retains its development signature and is not notarized by Apple. Either format may show the first-launch warning described below.
 

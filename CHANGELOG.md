@@ -3,6 +3,21 @@
 All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json).
 
+## [1.1.2] — 2026-09-09
+
+### Fixed
+
+- Prevent recursive Live Text selection-reset callbacks from crashing the editor while panning an image or dragging annotations.
+- Suppress programmatic selection notifications while installing, restoring, or clearing OCR results. Normal user text selection remains enabled.
+- Avoid reapplying OCR to the image already displayed, and remove completed OCR results when their capture is discarded.
+- Let the active text editor handle copy and undo/redo shortcuts, including numeric field editors. Save remains an editor command.
+
+### Validation and distribution
+
+- 424 automated tests passed, including native VisionKit analysis and window-backed text-responder regression tests.
+- DMG and ZIP contain the same v1.1.2 (build 112) app.
+- macOS 26+, Apple Silicon. This build retains the existing local development signature and is not notarized by Apple.
+
 ## [1.1.1] — 2026-09-08
 
 ### Fixed
