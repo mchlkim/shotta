@@ -2,21 +2,21 @@
   "buildNumber": "112",
   "fileName": "Shotta.app.zip",
   "path": "downloads/Shotta.app.zip",
-  "sha256": "5b1fbdc3dd99a744be713c5538edf5ae8e1006ad151a0865be87db33eaf2de5e",
-  "sizeBytes": 779210,
+  "sha256": "39ce7bbc0952cca6997f8682aa036bcc9fae94cff9a1669346007c65069872d4",
+  "sizeBytes": 779181,
   "version": "1.1.2",
   "artifacts": {
     "zip": {
       "fileName": "Shotta.app.zip",
       "path": "downloads/Shotta.app.zip",
-      "sha256": "5b1fbdc3dd99a744be713c5538edf5ae8e1006ad151a0865be87db33eaf2de5e",
-      "sizeBytes": 779210
+      "sha256": "39ce7bbc0952cca6997f8682aa036bcc9fae94cff9a1669346007c65069872d4",
+      "sizeBytes": 779181
     },
     "dmg": {
       "fileName": "Shotta.dmg",
       "path": "downloads/Shotta.dmg",
-      "sha256": "6ee9a9461f2e2be3e5db31de429e5e895cd84336a14051d787db8591dfc2fce0",
-      "sizeBytes": 1176515
+      "sha256": "1fafa4ae050b23eee77462cb87970004ddf6647cb6408bd3122571a90b6dbb11",
+      "sizeBytes": 1176460
     }
   }
 }
