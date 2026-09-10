@@ -31,6 +31,7 @@ Click the Shotta icon in the menu bar to use these commands.
 | Region Capture | `Control + Option + Shift + 4` | Capture a dragged rectangle. |
 | Full Screen Capture | `Control + Option + Shift + 3` | Capture the display you click. |
 | Window Capture | `Control + Option + Shift + 5` | Capture the highlighted window under the pointer. |
+| Open Editor | `Control + Option + Shift + E` | Open the editor with the latest capture. |
 
 When the capture overlay is open:
 
@@ -39,7 +40,10 @@ When the capture overlay is open:
 | `Space` | Switch modes in this order: full screen, region, window. |
 | `Esc` | Cancel capture and close the overlay. |
 | Drag | Select an area in region capture mode. |
+| Arrow keys while dragging | Hold the mouse button and press an arrow key to move the selection's end point by 1 pt. Add `Shift` to move 10 pt. The magnifier follows the adjusted point so you can land on an exact pixel. |
 | Click | Capture the current highlighted target in full screen or window mode. |
+
+While you drag a region, a label next to the selection shows the size of the image that will be saved in pixels (for example `1280 × 720 px`) and the top-left position in points relative to the display where the drag started (for example `x 100, y 200`). On Retina displays the pixel size is twice the point size.
 
 In multi-display setups, Shotta shows an overlay on every display. Full screen capture uses the display you click, and region capture can cross display boundaries.
 

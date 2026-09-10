@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://shotta.mchlkim.com/en">Website</a> ·
-  <a href="downloads/Shotta.dmg">Download DMG</a> ·
-  <a href="downloads/Shotta.app.zip">ZIP</a> ·
+  <a href="https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg">Download DMG</a> ·
+  <a href="https://github.com/mchlkim/shotta/releases/latest/download/Shotta.app.zip">ZIP</a> ·
   <a href="docs/user-guide.en.md">User guide</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="../../issues">Feedback</a>
@@ -21,13 +21,22 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.2-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
 
-## New in v1.1.2
+## New in v1.2.0
+
+- **See the size while you select.** While dragging a region, a label shows the output size in pixels (for example `1280 × 720 px`) and the top-left position of the selection on the display where the drag started.
+- **Nudge to the exact pixel.** Hold the mouse button and press an arrow key to move the selection's end point by 1 pt, or 10 pt with `Shift`. The magnifier follows, and releasing the mouse still captures immediately.
+- **Open the editor from anywhere.** `Control + Option + Shift + E` brings up the editor with your latest capture. Change it in Settings > Shortcuts.
+- **Downloads live on GitHub Releases.** The DMG and ZIP links below always point to the newest release.
+
+See the [v1.2.0 changelog](CHANGELOG.md#120--2026-09-10) for details.
+
+## Fixed in v1.1.2
 
 - Fix a crash caused by repeated Live Text selection callbacks while moving images or annotations.
 - Keep programmatic OCR updates separate from user selection and preserve OCR selection when the same image is refreshed.
@@ -84,22 +93,22 @@ Save As supports **PNG, JPEG, TIFF, HEIC, and BMP**. PNG and TIFF keep transpare
 
 ## Download and install
 
-Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.1.2 (build 112)**.
+Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.2.0 (build 113)**, published on the [Releases page](https://github.com/mchlkim/shotta/releases).
 
 | Format | Download | Installation |
 | --- | --- | --- |
-| DMG (recommended) | [Shotta.dmg](downloads/Shotta.dmg) | Open the disk image and drag Shotta to Applications. |
-| ZIP | [Shotta.app.zip](downloads/Shotta.app.zip) | Unzip the archive and move Shotta.app to Applications. |
+| DMG (recommended) | [Shotta.dmg](https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg) | Open the disk image and drag Shotta to Applications. |
+| ZIP | [Shotta.app.zip](https://github.com/mchlkim/shotta/releases/latest/download/Shotta.app.zip) | Unzip the archive and move Shotta.app to Applications. |
 
-Both downloads contain the same v1.1.2 app. Quit any running copy of Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar.
+Both downloads contain the same v1.2.0 app. Quit any running copy of Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar.
 
 The app retains its development signature and is not notarized by Apple. Either format may show the first-launch warning described below.
 
-Stable download links: [DMG](https://github.com/mchlkim/shotta/raw/main/downloads/Shotta.dmg) · [ZIP](https://github.com/mchlkim/shotta/raw/main/downloads/Shotta.app.zip).
+Stable download links that always resolve to the newest release: [DMG](https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg) · [ZIP](https://github.com/mchlkim/shotta/releases/latest/download/Shotta.app.zip). Older versions are available on the [Releases page](https://github.com/mchlkim/shotta/releases).
 
 ### Verify a download
 
-[downloads/latest.json](downloads/latest.json) lists the version and each file's size and SHA-256 checksum. Run the command for the format you downloaded:
+[downloads/latest.json](downloads/latest.json) lists the version, the release tag, each asset's download URL, and each file's size and SHA-256 checksum. Run the command for the format you downloaded:
 
 | Format | Command | Checksum in latest.json |
 | --- | --- | --- |
@@ -172,6 +181,7 @@ These global shortcuts work while you use other apps. Change them in Shotta Sett
 | `Control + Option + Shift + 3` | Capture a full screen |
 | `Control + Option + Shift + 4` | Capture a selected area |
 | `Control + Option + Shift + 5` | Capture a window |
+| `Control + Option + Shift + E` | Open the editor |
 
 ### Open, edit, and save
 

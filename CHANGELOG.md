@@ -1,7 +1,26 @@
 # Changelog
 
 All notable changes to Shotta releases are documented here. The latest release
-metadata is also published in [downloads/latest.json](downloads/latest.json).
+metadata is also published in [downloads/latest.json](downloads/latest.json), and
+downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
+
+## [1.2.0] — 2026-09-10
+
+### Added
+
+- Show a live readout next to the selection while dragging a region: the output size in pixels (for example `1280 × 720 px`) and the top-left position in points relative to the display where the drag started. The label stays clear of the selection and the magnifier.
+- Fine-tune a region with the arrow keys while the mouse button is held: 1 pt per press, or 10 pt with `Shift`. The adjustment is kept when the pointer moves again, and releasing the mouse still captures immediately.
+- Add a `Control + Option + Shift + E` global shortcut and a status bar menu item that open the editor. The shortcut is configurable in Settings > Shortcuts.
+
+### Changed
+
+- Publish the DMG and ZIP as GitHub Release assets. `releases/latest/download/Shotta.dmg` and `releases/latest/download/Shotta.app.zip` always resolve to the newest build, and `downloads/latest.json` now records the release tag and asset URLs.
+
+### Validation and distribution
+
+- 445 automated tests passed, including new coverage for the selection readout, label placement, and keyboard nudging.
+- DMG and ZIP contain the same v1.2.0 (build 113) app.
+- macOS 26+, Apple Silicon. This build retains the existing local development signature and is not notarized by Apple.
 
 ## [1.1.2] — 2026-09-09
 
