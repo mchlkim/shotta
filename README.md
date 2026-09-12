@@ -21,11 +21,19 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2.2-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.3-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
+
+## New in v1.2.3
+
+- Fix the screenshot-folder control's layout and opaque background in Settings.
+- Align the Update label and status text in Settings > About.
+- Refresh the Shotta menu when the app becomes active, and add **Check for Updates…** to both the app menu and the menu bar status icon.
+
+See the [v1.2.3 changelog](CHANGELOG.md#123--2026-09-12) for details.
 
 ## New in v1.2.2
 

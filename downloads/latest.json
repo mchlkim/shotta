@@ -1,31 +1,31 @@
 {
   "artifacts" : {
     "dmg" : {
-      "downloadUrl" : "https://github.com/mchlkim/shotta/releases/download/v1.2.2/Shotta.dmg",
+      "downloadUrl" : "https://github.com/mchlkim/shotta/releases/download/v1.2.3/Shotta.dmg",
       "fileName" : "Shotta.dmg",
       "latestDownloadUrl" : "https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg",
       "path" : "downloads/Shotta.dmg",
-      "sha256" : "f6d6477a5ef3a5b8ddf089f9e6f909edb965d64a04fa520ef1fd2413ae9f17c5",
-      "sizeBytes" : 2309400
+      "sha256" : "b8213dc41c1c7414c731a370d06439a4b94ebd5ed3efc2c78999af7808c96a56",
+      "sizeBytes" : 2311233
     },
     "zip" : {
-      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.2\/Shotta.app.zip",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.3\/Shotta.app.zip",
       "fileName" : "Shotta.app.zip",
       "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.app.zip",
       "path" : "downloads\/Shotta.app.zip",
-      "sha256" : "3719e437018d595c5e4fc528f563afd40b426d0d5a9ef55487d90c334c1f1785",
-      "sizeBytes" : 1971586
+      "sha256" : "5b8add3969576feba535c7f89ec92e69b73da6c43ebdb370efad871d9fa34544",
+      "sizeBytes" : 1973978
     }
   },
-  "buildNumber" : "115",
+  "buildNumber" : "118",
   "fileName" : "Shotta.app.zip",
   "minimumSystemVersion" : "26.0",
   "path" : "downloads\/Shotta.app.zip",
-  "publishedAt" : "2026-09-12T06:38:25Z",
-  "releaseTag" : "v1.2.2",
-  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.2",
+  "publishedAt" : "2026-09-12T08:10:06Z",
+  "releaseTag" : "v1.2.3",
+  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.3",
   "schema" : 1,
-  "sha256" : "3719e437018d595c5e4fc528f563afd40b426d0d5a9ef55487d90c334c1f1785",
-  "sizeBytes" : 1971586,
-  "version" : "1.2.2"
+  "sha256" : "5b8add3969576feba535c7f89ec92e69b73da6c43ebdb370efad871d9fa34544",
+  "sizeBytes" : 1973978,
+  "version" : "1.2.3"
 }

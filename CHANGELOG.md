@@ -4,6 +4,24 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.2.3] — 2026-09-12
+
+### Fixed
+
+- Keep the screenshot-folder control inside its bezel, with a white fill in light mode and an opaque appearance-aware fill in dark mode.
+- Align the About pane's Update label with the status text baseline.
+- Refresh the Shotta application menu when an editor or settings window comes to the foreground and when the app becomes active.
+
+### Added
+
+- Add Check for Updates… to both the Shotta application menu and the menu bar status icon. The command opens Settings > About and starts a manual check.
+
+### Validation and distribution
+
+- 48 focused settings, menu, and update tests passed, including light/dark window captures and duplicate-check prevention.
+- The full suite ran 503 tests. One existing editor resize-handle rendering test still fails eight color/alpha assertions; no additional failing tests were introduced.
+- ZIP and DMG contain the same signed 1.2.3 (build 118) app, with a signed Sparkle update archive. macOS 26+, Apple Silicon; local development signature, not Apple-notarized.
+
 ## [1.2.2] — 2026-09-12
 
 ### Added
