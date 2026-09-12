@@ -4,6 +4,19 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.2.1] — 2026-09-12
+
+### Changed
+
+- Remove the source code link and image-processing privacy paragraph from Settings > About.
+- Provide version information, update checks, and release download links in Settings > About. Updates are downloaded and installed manually.
+- Publish version 1.2.1 (build 114) with a versioned update manifest and matching ZIP/DMG assets.
+
+### Validation and distribution
+
+- 21 focused update, app information, and About pane tests passed.
+- macOS 26+, Apple Silicon. Retains the existing local development signature; not notarized by Apple.
+
 ## [1.2.0] — 2026-09-10
 
 ### Added

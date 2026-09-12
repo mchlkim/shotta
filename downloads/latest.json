@@ -1,28 +1,31 @@
 {
-  "version": "1.2.0",
-  "buildNumber": "113",
-  "fileName": "Shotta.app.zip",
-  "path": "downloads/Shotta.app.zip",
-  "sha256": "5c9d986a287bd2fb37b4cec85b05d75059e3da00aa0f069537ceb1604d045439",
-  "sizeBytes": 786841,
-  "releaseTag": "v1.2.0",
-  "releaseUrl": "https://github.com/mchlkim/shotta/releases/tag/v1.2.0",
-  "artifacts": {
-    "zip": {
-      "fileName": "Shotta.app.zip",
-      "path": "downloads/Shotta.app.zip",
-      "sha256": "5c9d986a287bd2fb37b4cec85b05d75059e3da00aa0f069537ceb1604d045439",
-      "sizeBytes": 786841,
-      "downloadUrl": "https://github.com/mchlkim/shotta/releases/download/v1.2.0/Shotta.app.zip",
-      "latestDownloadUrl": "https://github.com/mchlkim/shotta/releases/latest/download/Shotta.app.zip"
+  "artifacts" : {
+    "dmg" : {
+      "downloadUrl" : "https://github.com/mchlkim/shotta/releases/download/v1.2.1/Shotta.dmg",
+      "fileName" : "Shotta.dmg",
+      "latestDownloadUrl" : "https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg",
+      "path" : "downloads/Shotta.dmg",
+      "sha256" : "1c74799e6f2d8fb885f4c533d4aa67a0e733d31517b063bb46e247c272addb04",
+      "sizeBytes" : 1264986
     },
-    "dmg": {
-      "fileName": "Shotta.dmg",
-      "path": "downloads/Shotta.dmg",
-      "sha256": "2c5e5a55c6c00525d2762aced55d33da699e725359d965f8f2233d87b28c3237",
-      "sizeBytes": 1186084,
-      "downloadUrl": "https://github.com/mchlkim/shotta/releases/download/v1.2.0/Shotta.dmg",
-      "latestDownloadUrl": "https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg"
+    "zip" : {
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.1\/Shotta.app.zip",
+      "fileName" : "Shotta.app.zip",
+      "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.app.zip",
+      "path" : "downloads\/Shotta.app.zip",
+      "sha256" : "b25cef5bed5859faefe85d7b6cced8db0464dd5d866e47718c8fe81d3e002124",
+      "sizeBytes" : 858882
     }
-  }
+  },
+  "buildNumber" : "114",
+  "fileName" : "Shotta.app.zip",
+  "minimumSystemVersion" : "26.0",
+  "path" : "downloads\/Shotta.app.zip",
+  "publishedAt" : "2026-09-12T06:14:15Z",
+  "releaseTag" : "v1.2.1",
+  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.1",
+  "schema" : 1,
+  "sha256" : "b25cef5bed5859faefe85d7b6cced8db0464dd5d866e47718c8fe81d3e002124",
+  "sizeBytes" : 858882,
+  "version" : "1.2.1"
 }
