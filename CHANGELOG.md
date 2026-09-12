@@ -4,6 +4,20 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.2.2] — 2026-09-12
+
+### Added
+
+- Install updates from Settings > About using Sparkle 2.9.6. After the user approves installation, Sparkle downloads and verifies the update, replaces the app, and handles relaunching.
+- Verify update archives with Ed25519 signatures before extraction. Publish `downloads/appcast.xml` alongside the existing JSON update feed.
+- Keep automatic version checks separate from installation: background checks do not automatically download or install updates.
+
+### Upgrade and validation
+
+- Users on 1.2.1 or earlier must install this release manually once; subsequent releases support in-app installation.
+- 40 focused Swift tests and 8 Python packaging tests passed. An isolated installation test confirmed automatic replacement and rejection of an invalid signature without changing the existing app.
+- ZIP and DMG contain the same signed 1.2.2 (build 115) app. macOS 26+, Apple Silicon. This release retains its local development signature and is not notarized by Apple.
+
 ## [1.2.1] — 2026-09-12
 
 ### Changed

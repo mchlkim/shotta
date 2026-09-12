@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Shotta</title>
+        <item>
+            <title>1.2.2</title>
+            <pubDate>Sat, 12 Sep 2026 15:38:26 +0900</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/mchlkim/shotta/releases/download/v1.2.2/Shotta.app.zip" length="1971586" type="application/octet-stream" sparkle:edSignature="HJvuHueVUT+kh0Il8LjFD/0bG57LSvmutLSK8eVA41kRojJatTvVhgIVbWWqQepUuzcHe/CZ2m+/Ph28SpzmBw=="/>
+        </item>
+    </channel>
+</rss>

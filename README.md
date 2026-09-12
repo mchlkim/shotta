@@ -21,11 +21,19 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.2-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
+
+## New in v1.2.2
+
+- **Install updates in the app.** Open Settings > About, check for an update, then choose **Install Update…**. Sparkle verifies the download, replaces the app, and handles relaunching after you approve installation.
+- **Signed update archives.** Ed25519 signatures are checked before extraction. Automatic version checks do not automatically install updates.
+- **One-time migration.** If you use 1.2.1 or earlier, manually install 1.2.2 once to enable in-app installation for future releases.
+
+See the [v1.2.2 changelog](CHANGELOG.md#122--2026-09-12) for details.
 
 ## New in v1.2.0
 
@@ -93,14 +101,14 @@ Save As supports **PNG, JPEG, TIFF, HEIC, and BMP**. PNG and TIFF keep transpare
 
 ## Download and install
 
-Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.2.0 (build 113)**, published on the [Releases page](https://github.com/mchlkim/shotta/releases).
+Shotta requires **macOS 26 or later on an Apple Silicon Mac**. The current download is **v1.2.2 (build 115)**, published on the [Releases page](https://github.com/mchlkim/shotta/releases).
 
 | Format | Download | Installation |
 | --- | --- | --- |
 | DMG (recommended) | [Shotta.dmg](https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg) | Open the disk image and drag Shotta to Applications. |
 | ZIP | [Shotta.app.zip](https://github.com/mchlkim/shotta/releases/latest/download/Shotta.app.zip) | Unzip the archive and move Shotta.app to Applications. |
 
-Both downloads contain the same v1.2.0 app. Quit any running copy of Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar.
+Both downloads contain the same v1.2.2 app. For the initial installation or an upgrade from 1.2.1 or earlier, quit Shotta before replacing it. Launch the copy in Applications, then eject the DMG if you used it. Shotta appears in the menu bar. Starting with 1.2.2, use Settings > About > Install Update… for future updates. Save unfinished edits before installing an update.
 
 The app retains its development signature and is not notarized by Apple. Either format may show the first-launch warning described below.
 
