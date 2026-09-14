@@ -4,6 +4,20 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.2.4] — 2026-09-14
+
+### Fixed
+
+- Keep the Settings window at a shared size when switching between General, Shortcuts, Magnifier, and About.
+- Give selectors consistent widths and align labels with the text inside their controls, including the screenshot-folder and permission rows.
+- Center the shortcuts form vertically and the actual-size magnifier preview horizontally. Keep the About header centered and its footer at the bottom.
+
+### Validation and distribution
+
+- 37 settings tests passed, covering all four languages; one shortcut-recording test requiring a permission dialog was excluded. All four tabs and the maximum-size magnifier preview were checked in the installed app.
+- 25 Swift packaging/update tests and 20 Python packaging tests passed. The full application test suite was not rerun for this release.
+- ZIP and DMG contain the same signed 1.2.4 (build 126) app, with a signed Sparkle update archive. macOS 26+, Apple Silicon; existing local development signature, not Apple-notarized.
+
 ## [1.2.3] — 2026-09-12
 
 ### Fixed

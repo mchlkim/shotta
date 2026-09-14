@@ -1,31 +1,31 @@
 {
   "artifacts" : {
     "dmg" : {
-      "downloadUrl" : "https://github.com/mchlkim/shotta/releases/download/v1.2.3/Shotta.dmg",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.4\/Shotta.dmg",
       "fileName" : "Shotta.dmg",
-      "latestDownloadUrl" : "https://github.com/mchlkim/shotta/releases/latest/download/Shotta.dmg",
-      "path" : "downloads/Shotta.dmg",
-      "sha256" : "b8213dc41c1c7414c731a370d06439a4b94ebd5ed3efc2c78999af7808c96a56",
-      "sizeBytes" : 2311233
+      "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.dmg",
+      "path" : "downloads\/Shotta.dmg",
+      "sha256" : "9fe5aa5e262e790046d52418eb71ec2b66d60b8d4ee06943db52dfa660509816",
+      "sizeBytes" : 2311628
     },
     "zip" : {
-      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.3\/Shotta.app.zip",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.4\/Shotta.app.zip",
       "fileName" : "Shotta.app.zip",
       "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.app.zip",
       "path" : "downloads\/Shotta.app.zip",
-      "sha256" : "5b8add3969576feba535c7f89ec92e69b73da6c43ebdb370efad871d9fa34544",
-      "sizeBytes" : 1973978
+      "sha256" : "b2eb9b239d2e34669f6107a8dd379b03eab8466a021edc556cba7aac77118425",
+      "sizeBytes" : 1975100
     }
   },
-  "buildNumber" : "118",
+  "buildNumber" : "126",
   "fileName" : "Shotta.app.zip",
   "minimumSystemVersion" : "26.0",
   "path" : "downloads\/Shotta.app.zip",
-  "publishedAt" : "2026-09-12T08:10:06Z",
-  "releaseTag" : "v1.2.3",
-  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.3",
+  "publishedAt" : "2026-09-14T04:34:53Z",
+  "releaseTag" : "v1.2.4",
+  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.4",
   "schema" : 1,
-  "sha256" : "5b8add3969576feba535c7f89ec92e69b73da6c43ebdb370efad871d9fa34544",
-  "sizeBytes" : 1973978,
-  "version" : "1.2.3"
+  "sha256" : "b2eb9b239d2e34669f6107a8dd379b03eab8466a021edc556cba7aac77118425",
+  "sizeBytes" : 1975100,
+  "version" : "1.2.4"
 }
