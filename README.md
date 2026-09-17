@@ -21,11 +21,18 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2.4-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.5-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
+
+## New in v1.2.5
+
+- Settings pane content starts below the title bar, and every control row has the same height.
+- The About pane groups update controls under **Software Updates**.
+
+See the [v1.2.5 changelog](CHANGELOG.md#125--2026-09-17) for details.
 
 ## New in v1.2.4
 

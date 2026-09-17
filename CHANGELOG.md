@@ -4,6 +4,20 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.2.5] — 2026-09-17
+
+### Fixed
+
+- Start Settings pane content below the title bar instead of letting the first group slide under it; the window grows by the title-bar height so every pane still fits.
+- Give every control row in Settings the same height. Pop-ups, segmented controls, and shortcut recorders no longer overhang the row padding when space is tight, and the About update rows no longer stretch when space is available.
+- Rename the About group header to **Software Updates** so it no longer repeats the **Update** row label in Korean, Chinese, and Japanese.
+
+### Validation and distribution
+
+- Settings window tests: 38 run, 1 skipped, 0 failures (previously 8 failures). Full suite: 385 run; the remaining failures are packaging-script tests that need an unrestricted signing environment and one locale-dependent editor tooltip test, none in Settings.
+- Packaging now fails instead of silently skipping the Sparkle embed when `otool` is unavailable.
+- ZIP and DMG contain the same signed 1.2.5 (build 127) app, with a signed Sparkle update archive; the installed copy matches both. macOS 26+, Apple Silicon; existing local development signature, not Apple-notarized.
+
 ## [1.2.4] — 2026-09-14
 
 ### Fixed
