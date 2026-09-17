@@ -4,6 +4,17 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.2.7] — 2026-09-17
+
+### Changed
+
+- Fill every Settings pane from the top. The Shortcuts pane no longer floats in the vertical center; its form starts at the same top inset as the other panes.
+
+### Validation and distribution
+
+- Settings window tests: 39 run, 1 skipped, 0 failures, with the placement assertions updated to top alignment.
+- ZIP and DMG contain the same signed 1.2.7 (build 129) app, with a signed Sparkle update archive; the installed copy matches both. macOS 26+, Apple Silicon; existing local development signature, not Apple-notarized.
+
 ## [1.2.6] — 2026-09-17
 
 ### Fixed
