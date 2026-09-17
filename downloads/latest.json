@@ -1,31 +1,31 @@
 {
   "artifacts" : {
     "dmg" : {
-      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.5\/Shotta.dmg",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.6\/Shotta.dmg",
       "fileName" : "Shotta.dmg",
       "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.dmg",
       "path" : "downloads\/Shotta.dmg",
-      "sha256" : "12ace798a76a26cb7b0f5c1b8892ecbd701667fd9fc630a1ed08e54a5c20e60d",
-      "sizeBytes" : 2311369
+      "sha256" : "f2c32bef6485bd95c0ea94107c407d4ef0a71cffd61d195d18ecbc2eb5c0eac8",
+      "sizeBytes" : 2311741
     },
     "zip" : {
-      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.5\/Shotta.app.zip",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.6\/Shotta.app.zip",
       "fileName" : "Shotta.app.zip",
       "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.app.zip",
       "path" : "downloads\/Shotta.app.zip",
-      "sha256" : "279a48250dbb1866c8b3c3f4b9a0a1e0198fb54a4fae3c71952e8de5324738d3",
-      "sizeBytes" : 1974001
+      "sha256" : "117a824f675d5e6bffb7453d91ad39d255da5d86867ed4f54d4966b73fe8dd50",
+      "sizeBytes" : 1974178
     }
   },
-  "buildNumber" : "127",
+  "buildNumber" : "128",
   "fileName" : "Shotta.app.zip",
   "minimumSystemVersion" : "26.0",
   "path" : "downloads\/Shotta.app.zip",
-  "publishedAt" : "2026-09-17T01:24:56Z",
-  "releaseTag" : "v1.2.5",
-  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.5",
+  "publishedAt" : "2026-09-17T01:37:18Z",
+  "releaseTag" : "v1.2.6",
+  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.6",
   "schema" : 1,
-  "sha256" : "279a48250dbb1866c8b3c3f4b9a0a1e0198fb54a4fae3c71952e8de5324738d3",
-  "sizeBytes" : 1974001,
-  "version" : "1.2.5"
+  "sha256" : "117a824f675d5e6bffb7453d91ad39d255da5d86867ed4f54d4966b73fe8dd50",
+  "sizeBytes" : 1974178,
+  "version" : "1.2.6"
 }
