@@ -21,11 +21,20 @@
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-blue">
   <img alt="Architecture" src="https://img.shields.io/badge/chip-Apple%20Silicon-lightgrey">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2.7-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-brightgreen">
   <img alt="License" src="https://img.shields.io/badge/license-Freeware-orange">
 </p>
 
 Shotta lives in your Mac menu bar. Capture a screen or open an image, add a note, and blur sensitive details before you copy or save. Editing and text recognition happen on your Mac.
+
+## New in v1.3.0
+
+- Counter and Spotlight tools, with rectangle or ellipse spotlights.
+- Drag the edited image straight into Finder, Mail, or Messages.
+- Right-click menus on annotations and the canvas, and a `?` shortcut list.
+- The Settings sidebar selection is rounded on both ends.
+
+See the [v1.3.0 changelog](CHANGELOG.md#130--2026-10-29) for details.
 
 ## New in v1.2.7
 

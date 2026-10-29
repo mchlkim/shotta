@@ -4,6 +4,32 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.3.0] — 2026-10-29
+
+### Added
+
+- Counter tool (N): place numbered badges 1, 2, 3… where you click. Duplicated badges and badges flattened by a crop keep the sequence going.
+- Spotlight tool (F): dim everything outside a region. Choose a rectangle or an ellipse from the options HUD.
+- Drag the edited image into other apps: ⌘-drag on the canvas or drag a history thumbnail. Finder, Mail, and Messages receive a PNG file; apps that read image data receive PNG bytes.
+- Right-click menus: duplicate, delete, reorder, and recolor an annotation, or copy, save, select all, and show shortcuts from an empty spot.
+- Press `?` for a list of every editor shortcut.
+- Shift-drag constrains shapes to squares and lines to 45°. Arrow keys move the selection by 1 pt (10 pt with Shift). ⌘D or Option-drag duplicates it.
+
+### Fixed
+
+- Round both ends of the Settings sidebar selection. The overflow the source-list style adds for the selection pill was clipped at the scroll view's edge, squaring off the trailing corners.
+- Keep the capture's color space through copy and save.
+- Fix capture lifecycle gaps, restoring a hidden editor, and crashes in Settings.
+
+### Changed
+
+- Lighter canvas drawing, multi-display composition, and history thumbnail handling.
+
+### Validation and distribution
+
+- App tests: 481 run, 1 skipped, 0 failures. Core tests: 165 passed. Packaging tests: 20 passed.
+- ZIP and DMG contain the same signed 1.3.0 (build 131) app, with a signed Sparkle update archive. macOS 26+, Apple Silicon; existing local development signature, not Apple-notarized.
+
 ## [1.2.7] — 2026-09-17
 
 ### Changed

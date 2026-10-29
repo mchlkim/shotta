@@ -1,31 +1,31 @@
 {
   "artifacts" : {
     "dmg" : {
-      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.7\/Shotta.dmg",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.3.0\/Shotta.dmg",
       "fileName" : "Shotta.dmg",
       "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.dmg",
       "path" : "downloads\/Shotta.dmg",
-      "sha256" : "4f6cd2808053f91a653060241d5dbc1a2b6c8df3cf3efc3cd7fc44638cd48093",
-      "sizeBytes" : 2311688
+      "sha256" : "d77ae3394be75e341ff595b0c7c5f8407dd69f2ef4a60def5cd0a8c60eda9639",
+      "sizeBytes" : 2416038
     },
     "zip" : {
-      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.2.7\/Shotta.app.zip",
+      "downloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/download\/v1.3.0\/Shotta.app.zip",
       "fileName" : "Shotta.app.zip",
       "latestDownloadUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/latest\/download\/Shotta.app.zip",
       "path" : "downloads\/Shotta.app.zip",
-      "sha256" : "a92109a4bea671713d005088c5df24d3dd5e46c258c6e350ae43d71c72d248d0",
-      "sizeBytes" : 1974200
+      "sha256" : "1ab994af4dcbd09125cf4d24641386098c36d8f1071113da65a0b8e035dabe45",
+      "sizeBytes" : 2074170
     }
   },
-  "buildNumber" : "129",
+  "buildNumber" : "131",
   "fileName" : "Shotta.app.zip",
   "minimumSystemVersion" : "26.0",
   "path" : "downloads\/Shotta.app.zip",
-  "publishedAt" : "2026-09-17T02:11:02Z",
-  "releaseTag" : "v1.2.7",
-  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.2.7",
+  "publishedAt" : "2026-10-29T07:32:30Z",
+  "releaseTag" : "v1.3.0",
+  "releaseUrl" : "https:\/\/github.com\/mchlkim\/shotta\/releases\/tag\/v1.3.0",
   "schema" : 1,
-  "sha256" : "a92109a4bea671713d005088c5df24d3dd5e46c258c6e350ae43d71c72d248d0",
-  "sizeBytes" : 1974200,
-  "version" : "1.2.7"
+  "sha256" : "1ab994af4dcbd09125cf4d24641386098c36d8f1071113da65a0b8e035dabe45",
+  "sizeBytes" : 2074170,
+  "version" : "1.3.0"
 }
