@@ -4,6 +4,23 @@ All notable changes to Shotta releases are documented here. The latest release
 metadata is also published in [downloads/latest.json](downloads/latest.json), and
 downloadable builds are attached to each [GitHub Release](https://github.com/mchlkim/shotta/releases).
 
+## [1.3.1] — 2026-10-29
+
+### Changed
+
+- Blur and mosaic strength is a 1–100 slider next to the number field, the same scale for both effects. Dragging previews the result; releasing records one undo step.
+- Mosaic blocks range from 3 to 30 px (previously 3 to 7 px). The blur range and both default strengths are unchanged.
+- `Option + +` and `Option + -` change blur and mosaic strength in steps of 10.
+
+### Fixed
+
+- Line the mosaic grid up with the image origin. Blocks were offset by half a block, so a mosaic touching the image's left or bottom edge started with a half-width block.
+
+### Validation and distribution
+
+- App tests: 481 run, 1 skipped, 0 failures. Core tests: 166 passed. Packaging tests: 20 passed.
+- ZIP and DMG contain the same signed 1.3.1 (build 132) app, with a signed Sparkle update archive. macOS 26+, Apple Silicon; existing local development signature, not Apple-notarized.
+
 ## [1.3.0] — 2026-10-29
 
 ### Added

@@ -3,13 +3,13 @@
     <channel>
         <title>Shotta</title>
         <item>
-            <title>1.3.0</title>
-            <pubDate>Thu, 29 Oct 2026 16:32:38 +0900</pubDate>
-            <sparkle:version>131</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <title>1.3.1</title>
+            <pubDate>Thu, 29 Oct 2026 17:06:10 +0900</pubDate>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/mchlkim/shotta/releases/download/v1.3.0/Shotta.app.zip" length="2074170" type="application/octet-stream" sparkle:edSignature="5VKau5roC4sC6PpLxIY8e6+FSi5UhoCtI26c18vCQWz7N8rt7PU+KBF9MT6HPMWSCMJqA1WDakxuUw2zSpHwCQ=="/>
+            <enclosure url="https://github.com/mchlkim/shotta/releases/download/v1.3.1/Shotta.app.zip" length="2074771" type="application/octet-stream" sparkle:edSignature="nC1ZdP9E/nRaTneQAu/Ye+x4134yxKLl7d5tHNM3umxzY1N8hdMYCZqtn5nhKSr0mqv8EPrkCY4OPdAVSvWpAw=="/>
         </item>
     </channel>
 </rss>
